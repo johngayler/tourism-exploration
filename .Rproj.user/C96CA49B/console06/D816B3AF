@@ -1,0 +1,77 @@
+[0mMicrosoft Windows [Version 10.0.16299.371][0K[?25l
+(c) 2017 Microsoft Corporation. All rights reserved.[0K
+[0K
+C:\Users\john.gayler\OneDrive - Intrepid Group\R\tourism-exploration>[0K[?25hg[0Ki[0Kt[0K[74G[?25lC:\Users\john.gayler\OneDrive - Intrepid Group\R\tourism-exploration>git i[0K[?25hn[0Ki[0Kt[0K]0;  - git  init[?25l
+[0K[?25h]0; Initialized empty Git repository in C:/Users/john.gayler/OneDrive - Intrepid Group/R/t[0Ko[?25l
+urism-exploration/.git/[0K
+[0K
+C:\Users\john.gayler\OneDrive - Intrepid Group\R\tourism-exploration>[0K[?25hg[0Ki[0Kt[0K[74G[?25lC:\Users\john.gayler\OneDrive - Intrepid Group\R\tourism-exploration>git r[0K[?25he[0Km[0Ko[0Kv[0K[?25lC:\Users\john.gayler\OneDrive - Intrepid Group\R\tourism-exploration>git remo[0K[?25ht[0Ke[0K[81G[?25lC:\Users\john.gayler\OneDrive - Intrepid Group\R\tourism-exploration>git remote a[0K[?25hd[0Kd[0K[85G[?25lC:\Users\john.gayler\OneDrive - Intrepid Group\R\tourism-exploration>git remote add o[0K[?25hr[0K[0Ki[?25l
+[0K[?25hg[0Ki[0Kn[0K[5G[?25lgin m[0K[?25ha[0Ks[0Kt[0Ke[0Kr[0K[12G[?25lgin master ^V[0K[?25h[?25lgin master[0K[12G[?25h[11G[12G[?25lgin master git@github.com:johngayler/tourism-exploration.git[0K[?25h]0;  - git  remote add origin master git@github.com:johngayler/tourism-exploration.git[?25l
+usage: git remote add [<options>] <name> <url>[0K
+[0K
+    -f, --fetch           fetch the remote branches[0K
+    --tags                import all tags and associated objects when fetching[0K
+                          or do not fetch any tag at all (--no-tags)[0K
+    -t, --track <branch>  branch(es) to track[0K
+    -m, --master <branch>[0K
+                          master branch[0K
+    --mirror[=<push|fetch>][0K
+                          set up remote as a mirror to push to or fetch from[0K
+[0K
+[0K[?25h]0; [?25l
+C:\Users\john.gayler\OneDrive - Intrepid Group\R\tourism-exploration>[0K[?25hg[0Ki[0Kt[0K[74G[?25lC:\Users\john.gayler\OneDrive - Intrepid Group\R\tourism-exploration>git p[0K[?25hu[0Ks[0Kh[0K[79G[?25lC:\Users\john.gayler\OneDrive - Intrepid Group\R\tourism-exploration>git push -[0K[?25hu[0K[82G[?25lC:\Users\john.gayler\OneDrive - Intrepid Group\R\tourism-exploration>git push -u o[0K[?25hr[0Ki[0Kg[0Ki[0K[0Kn[?25l
+[0K[?25h[2G[?25l m[0K[?25ha[0Ks[0Kt[0Ke[0Kr[0K]0;  - git  push -u origin master[?25l
+[0K[?25h]0; error: src refspec master does not match any.[0K[?25l
+error: failed to push some refs to 'origin'[0K
+[0K
+C:\Users\john.gayler\OneDrive - Intrepid Group\R\tourism-exploration>[0K[?25hg[0Ki[0Kt[0K[74G[?25lC:\Users\john.gayler\OneDrive - Intrepid Group\R\tourism-exploration>git r[0K[?25he[0Ko[0Kt[0Ke[0K[81G[?25lC:\Users\john.gayler\OneDrive - Intrepid Group\R\tourism-exploration>git remote a[0K[?25hd[0Kd[0K[85G[?25lC:\Users\john.gayler\OneDrive - Intrepid Group\R\tourism-exploration>git remote add o[0K[?25hr[0K[0Ki[?25l
+[0K[?25hg[0Ki[0Kn[0K[5G[6G[5G[?25lgin https://github.com/johngayler/tourism-exploration[0K[?25h]0;  - git  remote add origin https://github.com/johngayler/tourism-exploration[?25l
+[0K[?25h]0; [?25l
+C:\Users\john.gayler\OneDrive - Intrepid Group\R\tourism-exploration>[0K[?25hg[0Ki[0Kt[0K[74G[?25lC:\Users\john.gayler\OneDrive - Intrepid Group\R\tourism-exploration>git p[0K[?25hu[0Ks[0Kh[0K[79G[?25lC:\Users\john.gayler\OneDrive - Intrepid Group\R\tourism-exploration>git push o[0K[?25hr[0Ki[0Kg[0Ki[0Kn[0K[86G[?25lC:\Users\john.gayler\OneDrive - Intrepid Group\R\tourism-exploration>git push origin m[0K[?25h[0Ka[?25l
+[0K[?25hs[0Kt[0Ke[0Kr[0K]0;  - git  push origin master[?25l
+[0K[?25herror: src refspec master does not match any.[0K[?25l
+error: failed to push some refs to 'https://github.com/johngayler/tourism-exploration'[0K
+[0K[?25h]0; [?25l
+C:\Users\john.gayler\OneDrive - Intrepid Group\R\tourism-exploration>[0K[?25hg[0Ki[0Kt[0K[74G[?25lC:\Users\john.gayler\OneDrive - Intrepid Group\R\tourism-exploration>git c[0K[?25ho[0Km[0Km[0Ki[0Kt[0K[81G[?25lC:\Users\john.gayler\OneDrive - Intrepid Group\R\tourism-exploration>git commit -[0K[?25hm[0K[84G[?25lC:\Users\john.gayler\OneDrive - Intrepid Group\R\tourism-exploration>git commit -m "[0K[?25hi[0Kn[0K[0Ki[?25l
+[0K[?25ht[0Ki[0Kal[0K[6G[?25ltial c[0K[?25ho[0Km[0Km[0Ki[0Kt[0K"[0K[?25l
+[0K[?25h]0;  - git  commit -m "initial commit"On branch master[0K[?25l
+[0K
+Initial commit[0K
+[0K
+Untracked files:[0K
+        [0;31m.Rproj.user/[0m[0K
+        [0;31mtourism-exploration.Rproj[0m[0K
+[0K
+nothing added to commit but untracked files present[0K
+[0K[?25h]0; [?25l
+C:\Users\john.gayler\OneDrive - Intrepid Group\R\tourism-exploration>[0K[?25hg[0Ki[0Kt[0K[74G[?25lC:\Users\john.gayler\OneDrive - Intrepid Group\R\tourism-exploration>git p[0K[?25hu[0Ks[0Kh[0K[?25l
+fatal: The current branch master has no upstream branch.[0K
+To push the current branch and set the remote as upstream, use[0K
+[0K
+    git push --set-upstream origin master[0K
+[0K
+[0K[?25h[?25l
+C:\Users\john.gayler\OneDrive - Intrepid Group\R\tourism-exploration>[0K[?25hg[0Ki[0Kt[0K[74G[?25lC:\Users\john.gayler\OneDrive - Intrepid Group\R\tourism-exploration>git p[0K[?25hu[0Ks[0Kh[0K[79G[?25lC:\Users\john.gayler\OneDrive - Intrepid Group\R\tourism-exploration>git push o[0K[?25hr[0Ki[0Kg[0Ki[0Kn[0K[86G[?25lC:\Users\john.gayler\OneDrive - Intrepid Group\R\tourism-exploration>git push origin m[0K[?25h[0Ka[?25l
+[0K[?25hs[0Kt[0Ke[0Kr[0K]0;  - git  push origin master[?25l
+[0K[?25herror: src refspec master does not match any.[0K[?25l
+error: failed to push some refs to 'https://github.com/johngayler/tourism-exploration'[0K
+[0K[?25h]0; [?25l
+C:\Users\john.gayler\OneDrive - Intrepid Group\R\tourism-exploration>[0K[?25hgit push origin m[0Ka[?25l
+ster[0K[?25h[?25l[1AC:\Users\john.gayler\OneDrive - Intrepid Group\R\tourism-exploration>git push[0K
+[0K[1A[78G[?25h[?25lC:\Users\john.gayler\OneDrive - Intrepid Group\R\tourism-exploration>git commit -m "in[0Ki
+tial commit"[0K[?25h]0;  - git  commit -m "initial commit"[?25l
+[0K[?25h]0; On branch master[0K[?25l
+[0K
+Initial commit[0K
+[0K
+Untracked files:[0K
+        [0;31m.Rproj.user/[0m[0K
+        [0;31m00_Scripts/[0m[0K
+        [0;31mtourism-exploration.Rproj[0m[0K
+[0K
+nothing added to commit but untracked files present[0K
+[0K[?25h[?25l
+C:\Users\john.gayler\OneDrive - Intrepid Group\R\tourism-exploration>[0K[?25hg[0Ki[0Kt[0K[74G[?25lC:\Users\john.gayler\OneDrive - Intrepid Group\R\tourism-exploration>git a[0K[?25hd[0Kd[0K[78G[?25lC:\Users\john.gayler\OneDrive - Intrepid Group\R\tourism-exploration>git add ,[0K[?25h[?25l
+[0K[?25h]0;  - git  add ,]0; fatal: pathspec ',' did not match any files[0K[?25l
+[0K
+C:\Users\john.gayler\OneDrive - Intrepid Group\R\tourism-exploration>[0K[?25hg[0Ki[0Kt[0K[74G[?25lC:\Users\john.gayler\OneDrive - Intrepid Group\R\tourism-exploration>git a[0K[?25hd[0Kd[0K[78G[?25lC:\Users\john.gayler\OneDrive - Intrepid Group\R\tourism-exploration>git add ,[0K[?25h.[0K[?25lC:\Users\john.gayler\OneDrive - Intrepid Group\R\tourism-exploration>git add ,[0K[?25h[?25lC:\Users\john.gayler\OneDrive - Intrepid Group\R\tourism-exploration>git add[0K[78G[?25h[?25lC:\Users\john.gayler\OneDrive - Intrepid Group\R\tourism-exploration>git add .[0K[?25h
