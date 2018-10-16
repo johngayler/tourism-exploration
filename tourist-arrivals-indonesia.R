@@ -34,10 +34,14 @@ arrivals_clean %>%
   labs(title = "Tourist Arrivals to Indonesia",
        subtitle = "Top 10 countries - total visitation", 
        caption = glue("Source: {wiki_page}")) +
-  geom_label_repel(data = arrivals_clean[arrivals_clean$year %in% c("2017"), ],
+  geom_text_repel(data = arrivals_clean[arrivals_clean$year %in% c("2017"), ],
                   show.legend = FALSE,
                   colour = "black",
                   direction = "y",
                   segment.alpha = 0,
-                  nudge_x = .1, 
+                  nudge_x = .3, 
+                  size = 3.3,
                   aes(label = arrivals_trunc))
+
+
+ggsave("00_Output/plot_tourist-arrivals-Indonesia.png", dpi = 320)
