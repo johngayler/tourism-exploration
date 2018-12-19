@@ -1,80 +1,5 @@
-[0mMicrosoft Windows [Version 10.0.16299.371][0K[?25l
+[0m[0KMicrosoft Windows [Version 10.0.16299.371][0K[?25l
 (c) 2017 Microsoft Corporation. All rights reserved.[0K
 [0K
-C:\Users\john.gayler\OneDrive - Intrepid Group\R\tourism-exploration>[0K[?25h[?25lC:\Users\john.gayler\OneDrive - Intrepid Group\R\tou[0Kr
-ism-exploration>[0K[?25hg[0Ki[0Kt[0K[21G[?25lism-exploration>git a[0K[?25hd[0Kd[0K[25G[?25lism-exploration>git add .[0K[?25h]0;  - git  add .[?25l
-[0K[?25hwarning: LF will be replaced by CRLF in .Rproj.user/[0KC[?25l
-96CA49B/sources/prop/BF7FA4FB.[0K
-The file will have its original line endings in your[0K
-working directory.[0K
-warning: LF will be replaced by CRLF in .Rproj.user/[0KC
-96CA49B/sources/prop/INDEX.[0K
-The file will have its original line endings in your[0K
-working directory.[0K
-warning: LF will be replaced by CRLF in .Rproj.user/[0Ks
-hared/notebooks/paths.[0K
-The file will have its original line endings in your[0K
-working directory.[0K
-[0K[?25h]0; [?25l
-C:\Users\john.gayler\OneDrive - Intrepid Group\R\tou[0Kr
-ism-exploration>[0K[?25hg[0Ki[0Kt[0K[21G[?25lism-exploration>git c[0K[?25ho[0Km[0Km[0Ki[0Kt[0K[28G[?25lism-exploration>git commit -[0K[?25hm[0K[31G[?25lism-exploration>git commit -m "[0K[?25hU[0Kp[0Kd[0Ka[0Kt[0Ke[0K[39G[?25lism-exploration>git commit -m "Update p[0K[?25hl[0Ko[0Kt[0K[44G[?25lism-exploration>git commit -m "Update plot a[0K[?25hn[0Kd[0Ks[0K[?25lism-exploration>git commit -m "Update plot and[0K[?25hs[0K[?25lism-exploration>git commit -m "Update plot and[0K[?25h[48G[?25lism-exploration>git commit -m "Update plot and s[0K[?25ha[0Kv[0Ke[0K[53G[?25lism-exploration>git commit -m "Update plot and save [0Ko
-[0K[?25hu[0Kt[0Kp[0Ku[0Kt[0K"[0K]0;  - git  commit -m "Update plot and save output"[?25l
-[0K[?25h[master e35fb1b] Update plot and save output[0K[?25l
- 9 files changed, 11 insertions(+), 345 deletions(-)[0K
- rewrite .Rproj.user/C96CA49B/console06/D816B3AF (99[0K%
-)[0K
- delete mode 100644 .Rproj.user/C96CA49B/sources/s-9[0K3
-0C0D29/D2E3F8FD[0K
- delete mode 100644 .Rproj.user/C96CA49B/sources/s-9[0K3
-0C0D29/D2E3F8FD-contents[0K
- delete mode 100644 .Rproj.user/C96CA49B/sources/s-9[0K3
-0C0D29/lock_file[0K
- create mode 100644 00_Output/plot_tourist-arrivals-[0KI
-ndonesia.png[0K
- create mode 100644 plot.png[0K
-[0K[?25h]0; [?25l
-C:\Users\john.gayler\OneDrive - Intrepid Group\R\tou[0Kr
-ism-exploration>[0K[?25hg[0Ki[0Kt[0K[21G[?25lism-exploration>git p[0K[?25hu[0Ks[0Kh[0K]0;  - git  push[?25l
-[0K[?25hCounting objects: 16, done.[0K[?25l
-Delta compression using up to 4 threads.[0K
-Compressing objects: 100% (14/14), done.[0K
-Writing objects: 100% (16/16), 147.71 KiB | 13.43 Mi[0KB
-/s, done.[0K
-Total 16 (delta 2), reused 0 (delta 0)[0K
-[0K[?25hremote: Resolving deltas: 100% (2/2), completed with[0K[?25l
-2 local objects.[0K
-[0K[?25hTo https://github.com/johngayler/tourism-exploration[0K[?25l
-   95a8620..e35fb1b  master -> master[0K
-[0K[?25h]0; [?25l
-C:\Users\john.gayler\OneDrive - Intrepid Group\R\tou[0Kr
-ism-exploration>[0K[?25h[?25l[6Aremote: Resolving deltas: 100% (2/2), completed with 2 local o[0Kb
-jects.[0K
-To https://github.com/johngayler/tourism-exploration[0K
-   95a8620..e35fb1b  master -> master[0K
-[0K
-C:\Users\john.gayler\OneDrive - Intrepid Group\R\tourism-explo[0Kr
-ation>[0K[?25h[?25l[6Aremote: Resolving deltas: 100% (2/2), completed with 2 local ob[0Kj
-ects.[0K
-To https://github.com/johngayler/tourism-exploration[0K
-   95a8620..e35fb1b  master -> master[0K
-[0K
-C:\Users\john.gayler\OneDrive - Intrepid Group\R\tourism-explor[0Ka
-tion>[0K[?25h[?25l[6Aremote: Resolving deltas: 100% (2/2), completed with 2 local objects.[0K
-To https://github.com/johngayler/tourism-exploration[0K
-   95a8620..e35fb1b  master -> master[0K
-[0K
-C:\Users\john.gayler\OneDrive - Intrepid Group\R\tourism-exploration>[0K
-[0K
-[0K[2A[70G[?25h[?25l[4Aremote: Resolving deltas: 100% (2/2), completed with 2 local [0Ko
-bjects.[0K
-To https://github.com/johngayler/tourism-exploration[0K
-   95a8620..e35fb1b  master -> master[0K
-[0K
-C:\Users\john.gayler\OneDrive - Intrepid Group\R\tourism-expl[0Ko
-ration>[0K[?25h[?25l[1AC:\Users\john.gayler\OneDrive - Intrepid Group\R\tourism-exp[0Kl
-oration>[0K[?25h[?25l[4ATo https://github.com/johngayler/tourism-explorati[0Ko
-n[0K
-   95a8620..e35fb1b  master -> master[0K
-[0K
-C:\Users\john.gayler\OneDrive - Intrepid Group\R\t[0Ko
-urism-exploration>[0K[?25hg[0Ki[0Kt[0K[23G[?25lurism-exploration>git a[0K[?25hd[0Kd[0K[27G[?25lurism-exploration>git add .[0K[?25h
+C:\Users\john.gayler\OneDrive - Intrepid Group\R\tourism-exploration>[0K[?25hg[0Ki[0Kt[0K[74G[?25lC:\Users\john.gayler\OneDrive - Intrepid Group\R\tourism-exploration>git a[0K[?25hd[0Kd[0K[78G[?25lC:\Users\john.gayler\OneDrive - Intrepid Group\R\tourism-exploration>git add ,[0K[?25h[?25lC:\Users\john.gayler\OneDrive - Intrepid Group\R\tourism-exploration>git add[0K[78G[?25h[?25lC:\Users\john.gayler\OneDrive - Intrepid Group\R\tourism-exploration>git add .[0K[?25h[?25l
+[0K[?25h]0;  - git  add .
