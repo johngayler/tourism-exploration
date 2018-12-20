@@ -28,8 +28,7 @@ arrivals_clean <- arrivals_1 %>%
   left_join(arrivals_2, by = "Country") %>% 
   mutate(Rank = row_number()) %>% 
   filter(Rank <= 10) %>%
-  select(-Rank) %>%
-  gather(key = year, -Country, value = arrivals) %>% 
+  gather(key = year, -c(Country, Rank), value = arrivals) %>% 
   clean_names() %>% 
   mutate(country = as_factor(country),
          arrivals = parse_number(arrivals),
@@ -43,7 +42,7 @@ remove(arrivals_1, arrivals_2)
 countries <- c("China", "Singapore", "Malaysia", "Australia", "Japan", "India")
 
 arrivals_clean %>% 
-  filter(country %in% countries) %>% 
+  filter(rank <= 5) %>%
   ggplot(aes(x = year, y = arrivals, colour = country, group = country)) + 
   geom_line(size = .8) + 
   scale_y_continuous(labels = scales::comma) +
@@ -54,9 +53,10 @@ arrivals_clean %>%
   labs(title = "Tourist Arrivals to Indonesia",
        subtitle = "Top 10 countries - total visitation", 
        caption = glue("Source: {wiki_page}")) +
-  expand_limits(x = 2011) +
+  expand_limits(x = 2019) +
   # geom_segment(aes(xend = 2011, yend = arrivals), linetype = "dashed", colour = 'grey') +
-  geom_text(label = country)
+  geom_text(aes(label = country),
+            )
   # coord_cartesian(clip = 'off') +
 
 
