@@ -7,22 +7,37 @@ library(gganimate)
 # Scrape data from Wikipedia using rvest
 wiki_page <- "https://en.wikipedia.org/wiki/Tourism_in_Indonesia"
 
-arrivals <- wiki_page %>% 
+# 2000-2010
+arrivals_1 <- wiki_page %>% 
   read_html() %>% 
   html_node(xpath = '//*[@id="mw-content-text"]/div/table[1]') %>%
   html_table(fill = TRUE)
 
+# 2011-2017
+arrivals_2 <- wiki_page %>% 
+  read_html() %>% 
+  html_node(xpath = '//*[@id="mw-content-text"]/div/table[2]') %>%
+  html_table(fill = TRUE)
+
+arrivals <- left_join(arrivals_1, arrivals_2, by = "Country")
+
+
 # Wrangle Data ------------------------------------------------------------
 
-arrivals_clean <- arrivals %>%
-  # filter(Rank <= 10) %>%
-  # select(-Rank) %>%
+arrivals_clean <- arrivals_1 %>%
+  left_join(arrivals_2, by = "Country") %>% 
+  mutate(Rank = row_number()) %>% 
+  filter(Rank <= 10) %>%
+  select(-Rank) %>%
   gather(key = year, -Country, value = arrivals) %>% 
   clean_names() %>% 
   mutate(country = as_factor(country),
          arrivals = parse_number(arrivals),
          arrivals_trunc = paste(format(round(arrivals / 1e6, 2), trim = TRUE), 'M'),
          year = paste(year, "-01-01") %>% as_date() %>% year())
+
+# Clean up environment
+remove(arrivals_1, arrivals_2)
 
 # Plot Arrivals by Country of Origin --------------------------------------
 countries <- c("China", "Singapore", "Malaysia", "Australia", "Japan", "India")
