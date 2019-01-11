@@ -2,4 +2,47 @@
 (c) 2017 Microsoft Corporation. All rights reserved.[0K
 [0K
 C:\Users\john.gayler\OneDrive - Intrepid Group\R\tourism-exploration>[0K[?25hg[0Ki[0Kt[0K[74G[?25lC:\Users\john.gayler\OneDrive - Intrepid Group\R\tourism-exploration>git a[0K[?25hd[0Kd[0K[78G[?25lC:\Users\john.gayler\OneDrive - Intrepid Group\R\tourism-exploration>git add .[0K[?25h[80G[?25l
-[0K[?25h]0;  - git  add . 
+[0K[?25h]0;  - git  add . ]0; [?25l
+C:\Users\john.gayler\OneDrive - Intrepid Group\R\tourism-exploration>[0K[?25hg[0Ki[0Kt[0K[74G[?25lC:\Users\john.gayler\OneDrive - Intrepid Group\R\tourism-exploration>git c[0K[?25ho[0Km[0Km[0Ki[0Kt[0K[81G[?25lC:\Users\john.gayler\OneDrive - Intrepid Group\R\tourism-exploration>git commit -[0K[?25hm[0K[84G[?25lC:\Users\john.gayler\OneDrive - Intrepid Group\R\tourism-exploration>git commit -m "[0K[?25hr[0Ke[0Kf[0Ka[0Kc[0Kt[0Ko[0Kr[0K"[0K[?25lC:\Users\john.gayler\OneDrive - Intrepid Group\R\tourism-exploration>git commit -m "refactor[0K[?25h[?25lC:\Users\john.gayler\OneDrive - Intrepid Group\R\tourism-exploration>git commit -m "refacto[0K[?25h[?25lC:\Users\john.gayler\OneDrive - Intrepid Group\R\tourism-exploration>git commit -m "refact[0K[?25h[?25lC:\Users\john.gayler\OneDrive - Intrepid Group\R\tourism-exploration>git commit -m "refac[0K[?25h[?25lC:\Users\john.gayler\OneDrive - Intrepid Group\R\tourism-exploration>git commit -m "refa[0K[?25h[?25lC:\Users\john.gayler\OneDrive - Intrepid Group\R\tourism-exploration>git commit -m "ref[0K[?25h[?25lC:\Users\john.gayler\OneDrive - Intrepid Group\R\tourism-exploration>git commit -m "re[0K[?25h[?25lC:\Users\john.gayler\OneDrive - Intrepid Group\R\tourism-exploration>git commit -m "r[0K[?25h[?25lC:\Users\john.gayler\OneDrive - Intrepid Group\R\tourism-exploration>git commit -m "[0K[?25hU[0Kp[0Kd[0Ka[0Kt[0Ke[0K[92G[?25lC:\Users\john.gayler\OneDrive - Intrepid Group\R\tourism-exploration>git commit -m "Update c[0K[?25ho[0Kd[0Ke[0K[97G[?25lC:\Users\john.gayler\OneDrive - Intrepid Group\R\tourism-exploration>git commit -m "Update code t[0K[?25h[99G[98G[?25lC:\Users\john.gayler\OneDrive - Intrepid Group\R\tourism-exploration>git commit -m "Update code to[0K[?25h[?25l
+[0K[?25hg[0Kr[0Ka[0Kb[0K[6G[?25lgrab b[0K[?25ho[0Kt[0Kh[0K[11G[?25lgrab both t[0K[?25ha[0Kb[0Kl[0Ke[0Ks[0K[18G[?25lgrab both tables f[0K[?25hr[0Ko[0Km[0K[23G[?25lgrab both tables from w[0K[?25hi[0Kk[0Ki[0K"[0K[?25l
+[0K[?25h]0;  - git  commit -m "Update code to grab both tables from wiki"]0; [master 956f575] Update code to grab both tables from wiki[0K[?25l
+ 3 files changed, 22 insertions(+), 7 deletions(-)[0K
+ rewrite .Rproj.user/C96CA49B/console06/INDEX001 (68%)[0K
+[0K
+C:\Users\john.gayler\OneDrive - Intrepid Group\R\tourism-exploration>[0K[?25hg[0Ki[0Kt[0K[74G[?25lC:\Users\john.gayler\OneDrive - Intrepid Group\R\tourism-exploration>git p[0K[?25hu[0Ks[0Kh[0K]0;  - git  push[?25l
+[0K[?25hCounting objects: 8, done.[0K[?25l
+Delta compression using up to 4 threads.[0K
+Compressing objects:  12% (1/8)[0K[1G[?25hCompressing objects: 100% (8/8), done.[0K[?25l
+Writing objects: 100% (8/8), 900 bytes | 180.00 KiB/s, done.[0K
+Total 8 (delta 4), reused 0 (delta 0)[0K
+[0K[?25hremote: Resolving deltas: 100% (4/4), completed with 4 local objects.[0K[?25l
+[0K[?25hTo https://github.com/johngayler/tourism-exploration[0K[?25l
+   aa2729d..956f575  master -> master[0K
+[0K[?25h]0; [?25l
+C:\Users\john.gayler\OneDrive - Intrepid Group\R\tourism-exploration>[0K[?25hg[0Ki[0Kt[0K[74G[?25lC:\Users\john.gayler\OneDrive - Intrepid Group\R\tourism-exploration>git a[0K[?25hd[0Kd[0K[78G[?25lC:\Users\john.gayler\OneDrive - Intrepid Group\R\tourism-exploration>git add t[0K[?25ho[0Ku[0Kr[0K[0Ki[?25l
+[0K[?25hsm-exploration.Rproj[0K[?25lst-arrivals-indonesia.R[0K[?25h]0;  - git  add tourist-arrivals-indonesia.R[?25l
+[0K[?25h]0; [?25l
+C:\Users\john.gayler\OneDrive - Intrepid Group\R\tourism-exploration>[0K[?25hg[0Ki[0Kt[0K[74G[?25lC:\Users\john.gayler\OneDrive - Intrepid Group\R\tourism-exploration>git c[0K[?25ho[0Km[0Km[0Ki[0Kt[0K[81G[?25lC:\Users\john.gayler\OneDrive - Intrepid Group\R\tourism-exploration>git commit -[0K[?25h[0Km[?25l
+[0K[?25h[2G[?25l "[0K[?25hp[0Kl[0Ko[0Kt[0K[8G[?25l "plot t[0K[?25ho[0Kp[0K[12G[?25l "plot top 5[0K[?25h[14G[?25l "plot top 5 w[0K[?25hi[0Kt[0Kh[0K[19G[?25l "plot top 5 with l[0K[?25ha[0Kb[0Ke[0Kl[0Ks[0K"[0K]0;  - git  commit -m "plot top 5 with labels"[?25l
+[0K[?25h]0; [master e459f12] plot top 5 with labels[0K[?25l
+ 1 file changed, 5 insertions(+), 5 deletions(-)[0K
+[0K
+C:\Users\john.gayler\OneDrive - Intrepid Group\R\tourism-exploration>[0K[?25hg[0Ki[0Kt[0K[74G[?25lC:\Users\john.gayler\OneDrive - Intrepid Group\R\tourism-exploration>git a[0K[?25hd[0Kd[0K[78G[?25lC:\Users\john.gayler\OneDrive - Intrepid Group\R\tourism-exploration>git add t[0K[?25ho[0Ku[0Kr[0Ki[?25l
+sm-exploration.Rproj[0K[?25h[?25lst-arrivals-indonesia.R[0K[?25h]0;  - git  add tourist-arrivals-indonesia.R[?25l
+[0K[?25h]0; [?25l
+C:\Users\john.gayler\OneDrive - Intrepid Group\R\tourism-exploration>[0K[?25hg[0Ki[0Kt[0K[74G[?25lC:\Users\john.gayler\OneDrive - Intrepid Group\R\tourism-exploration>git c[0K[?25ho[0Km[0Km[0Ki[0Kt[0K[81G[?25lC:\Users\john.gayler\OneDrive - Intrepid Group\R\tourism-exploration>git commit -[0K[?25h[0Km[?25l
+[0K[?25h[2G[?25l "[0K[?25hF[0Ki[0Kn[0Ka[0Kl[0Ki[0Ks[0Ke[0K[12G[?25l "Finalise a[0K[?25hn[0Kd[0K[16G[?25l "Finalise and c[0K[?25hl[0Ke[0Ka[0Kn[0K[22G[?25l "Finalise and clean u[0K[?25hp[0K[25G[?25l "Finalise and clean up g[0K[?25h[?25l "Finalise and clean up[0K[25G[?25h[?25l "Finalise and clean up c[0K[?25ho[0Kd[0Ke[0K"[0K]0;  - git  commit -m "Finalise and clean up code"[?25l
+[0K[?25h]0; [master 1ca394a] Finalise and clean up code[0K[?25l
+ 1 file changed, 28 insertions(+), 32 deletions(-)[0K
+[0K
+C:\Users\john.gayler\OneDrive - Intrepid Group\R\tourism-exploration>[0K[?25hg[0Ki[0Kt[0K[74G[?25lC:\Users\john.gayler\OneDrive - Intrepid Group\R\tourism-exploration>git p[0K[?25hu[0Ks[0Kh[0K[?25l
+[0K[?25h]0;  - git  pushCounting objects: 6, done.[0K[?25l
+Delta compression using up to 4 threads.[0K
+Compressing objects: 100% (6/6), done.[0K
+Writing objects: 100% (6/6), 1.01 KiB | 344.00 KiB/s, done.[0K
+Total 6 (delta 4), reused 0 (delta 0)[0K
+[0K[?25hremote: Resolving deltas: 100% (4/4), completed with 2 local objects.[0K[?25l
+[0K[?25hTo https://github.com/johngayler/tourism-exploration[0K[?25l
+   956f575..1ca394a  master -> master[0K
+[0K[?25h]0; [?25l
+C:\Users\john.gayler\OneDrive - Intrepid Group\R\tourism-exploration>[0K[?25h

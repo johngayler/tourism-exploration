@@ -63,7 +63,7 @@ arrivals_clean %>%
   theme(legend.position = "none",
         legend.title = element_blank()) +
   labs(title = "Indonesian Inbound Tourism",
-       subtitle = "Top 10 countries by arrivals, 2000 - 2017", 
+       subtitle = "Top 5 countries by arrivals, 2000 - 2017", 
        caption = glue("Source: {wiki_page}"),
        x = "", 
        y = "Arrivals") +
